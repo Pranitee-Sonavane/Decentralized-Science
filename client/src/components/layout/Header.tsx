@@ -3,6 +3,7 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { useWeb3 } from "@/context/Web3Context";
 import { Input } from "@/components/ui/input";
+import React from "react";
 
 interface HeaderProps {
   onConnectWalletClick: () => void;
